@@ -1,0 +1,36 @@
+.Detail-container {
+    background-color: #edfce3;
+    padding: 15px;
+    display: flex;
+}
+
+.img-prod {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 110%;
+    margin: 4px;
+}
+.butts{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.details {
+    width: 60%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: large;
+}
+
+.goCart{
+    font-size:medium;
+    display: flex;
+    flex-direction:inherit;
+    border-radius: 15px;
+    background-color:#cdecc7;
+    box-shadow: 0 4px 8px rgb(174, 219, 170);
+    padding: 17px;
+
+}
