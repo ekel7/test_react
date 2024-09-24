@@ -1,0 +1,157 @@
+{
+  "company": {
+    "name": "Construcciones VA",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "Sobre nosotros",
+      "href": "product"
+    },
+    {
+      "name": "Precios",
+      "href": "features"
+    },
+    {
+      "name": "Trabajos",
+      "href": "about"
+    }
+  ],
+  "callToAction": {
+    "text": "Contactanos",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "Construcciones",
+    "subtitle": "Victor Acosta",
+    "description": "Calidad y trayectoria. Una fusión de talento donde se entrelaza la innovación y pasión de una nueva generación con la experiencia y solidez a lo largos de sus 20 años construyendo.",
+    "img": "/assets/images/edificio-1.jpg",
+    "primaryAction": {
+      "text": "Contactanos por Whatsapp",
+      "href": "#"
+    },
+    "secondaryAction": {
+      "text": "Enviar mail",
+      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+    }
+  },
+  "product": {
+    "title": "Construí con nosotros",
+    "items": [
+      {
+        "title": "Trabajamos con buena onda",
+        "description": "Trabajadores felices trabajan mejor!",
+        "img": "/assets/images/copado-1.jpg"
+      },
+      {
+        "title": "Edificios de departamentos",
+        "description": "Somos una compañía versátil, hacemos todo tipo de trabajos. Foto: Edificio de 9 departamentos en parque saavedra",
+        "img": "/assets/images/edificio-2.jpg"
+      },
+      {
+        "title": "Encofrados, construcciones en hormigón",
+        "description": "Carpintería de obra, tenemos experiencia en edificios residenciales e industriales. Foto: Fábrica farmacéutica en en panamericana y fábrica ford.",
+        "img": "/assets/images/encofrado-1.jpg"
+      },
+      {
+        "title": "Encofrados, construcciones en hormigón",
+        "description": "Carpintería de obra, tenemos experiencia en edificios residenciales e industriales. Foto: Fábrica farmacéutica en panamericana y fábrica ford.",
+        "img": "/assets/images/encofrado-1.jpg"
+      }
+    ]
+  },
+  "features": {
+    "title": "Lo ultimo y lo mejor ",
+    "subtitle": "Ultima tecnologia en construcción!",
+    "description": "Hacemos de todo, lo que venga, con las herramientas adecuadas para el trabajo. Invertimos más de 20000 dolares en herramientas!",
+    "items": [
+      {
+        "name": "Durlock",
+        "description": "Construcción en seco.",
+        "icon": "/assets/images/react.png"
+      },
+      {
+        "name": "Electricidad",
+        "description": "Contamos con técnicos electricistas capacitados para instalaciones de edificios de cualquier tamaño.",
+        "icon": "/assets/images/tailwindcss.svg"
+      },
+      {
+        "name": "Plomería",
+        "description": "Hacemos pozos ciegos, instalaciones de tanques de agua, hidromasajes, todo tipo de grifería",
+        "icon": "/assets/images/nextjs.svg"
+      },
+      {
+        "name": "Colocaciones",
+        "description": "Baños, cocinas, pisos, ya sea con piedras, cerámica o porcelanato.",
+        "icon": "/assets/images/ts.png"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Precios",
+    "items": [
+      {
+        "name": "Departamentos",
+        "price": "$1500",
+        "priceDetails": "USD por metro cuadrado",
+        "features": [
+          "Grantizado",
+          "Rapido",
+          "Construcción de principio a fin",
+          "Pago en cuotas"
+        ]
+      },
+      {
+        "name": "Residencial",
+        "price": "$2000",
+        "priceDetails": "USD por metro cuadrado",
+
+        "features": [
+          "Grantizado",
+          "Rapido",
+          "Construcción de principio a fin",
+          "Pago en cuotas"
+        ]
+      },
+      {
+        "name": "Industrial/Empresa",
+        "price": "$1750",
+        "priceDetails": "USD por metro cuadrado",
+        "features": [
+          "Grantizado",
+          "Rapido",
+          "Construcción de principio a fin",
+          "Pago en cuotas"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Sobre nosotros",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Precios",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Contacto",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Trabajos terminados",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      }
+    ],
+    "socialMedia": {
+      "facebook": "https://github.com/issaafalkattan",
+      "linkedin": "https://www.linkedin.com/in/it-emanuel-acosta/"
+    }
+  }
+}
