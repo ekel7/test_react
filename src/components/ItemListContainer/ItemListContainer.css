@@ -1,0 +1,30 @@
+.banner{
+    width: 100%;
+}
+.landing{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size:x-large;
+}
+.container{
+    background-color: #edfce3;
+    min-height: 90vh;
+}
+.loading{
+    margin-left: 45%;
+    margin-top: 8%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:6px solid rgb(27, 165, 94);
+    border-top-color: transparent;
+    animation: spin 0.7s 
+    linear infinite;
+}
+@keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
+
+}

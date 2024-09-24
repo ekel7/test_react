@@ -1,0 +1,19 @@
+    
+.checkout-container{
+
+    display:block;
+   margin:25px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.succes{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 30px;
+}
