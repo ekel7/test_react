@@ -28,11 +28,11 @@
     "img": "/assets/images/edificio-1.jpg",
     "primaryAction": {
       "text": "Contactanos por Whatsapp",
-      "href": "#"
+      "href": "https://wa.me/1162360687?text=Hola, me gustaría construir con ustedes y solicitar un presupuesto. Gracias."
     },
     "secondaryAction": {
       "text": "Enviar mail",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:vacosta678@gmail.com?subject=Hola quiero un edificio gracias!"
     }
   },
   "product": {
@@ -144,7 +144,7 @@
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Trabajos terminados ",
+        "name": "Trabajos terminados",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       }
