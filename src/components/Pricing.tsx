@@ -6,8 +6,7 @@ import config from '../config/index.json';
 
 const Pricing = () => {
   const { pricing } = config;
-  const { items, title } = pricing;
-  const [firstPlan, secondPlan, thirdPlan] = items;
+  const { title } = pricing;
 
 
   const images = [
