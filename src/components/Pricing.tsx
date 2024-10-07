@@ -1,4 +1,6 @@
 import React from 'react';
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 import config from '../config/index.json';
 
@@ -6,6 +8,71 @@ const Pricing = () => {
   const { pricing } = config;
   const { items, title } = pricing;
   const [firstPlan, secondPlan, thirdPlan] = items;
+
+
+  const images = [
+    {
+      original: "assets/images/works/cocina_terminada.jpg",
+      thumbnail: "assets/images/works/cocina_terminada.jpg",
+    },
+    {
+      original: "assets/images/works/copado-1.jpg",
+      thumbnail: "assets/images/works/copado-1.jpg",
+    },
+    {
+      original: "assets/images/works/edificio-1.jpg",
+      thumbnail: "assets/images/works/edificio-1.jpg",
+    },
+    {
+      original: "assets/images/works/edificio-2.jpg",
+      thumbnail: "assets/images/works/edificio-2.jpg",
+    },
+    {
+      original: "assets/images/works/edificio_saavedra.jpeg",
+      thumbnail: "assets/images/works/edificio_saavedra.jpeg",
+    },
+    {
+      original: "assets/images/works/encofrado-1.jpg",
+      thumbnail: "assets/images/works/encofrado-1.jpg",
+    },
+    {
+      original: "assets/images/works/encofrado_2.jpg",
+      thumbnail: "assets/images/works/encofrado_2.jpg",
+    },
+    {
+      original: "assets/images/works/frente_casa.jpg",
+      thumbnail: "assets/images/works/frente_casa.jpg",
+    },
+    {
+      original: "assets/images/works/piedras_1.jpg",
+      thumbnail: "assets/images/works/piedras_1.jpg",
+    },
+    {
+      original: "assets/images/works/piedras_proceso.jpg",
+      thumbnail: "assets/images/works/piedras_proceso.jpg",
+    },
+    {
+      original: "assets/images/works/piedras_terminadas.jpg",
+      thumbnail: "assets/images/works/piedras_terminadas.jpg",
+    },
+    {
+      original: "assets/images/works/pileta_escalera.jpg",
+      thumbnail: "assets/images/works/pileta_escalera.jpg",
+    },
+    {
+      original: "assets/images/works/pileta_revocada.jpg",
+      thumbnail: "assets/images/works/pileta_revocada.jpg",
+    },
+    {
+      original: "assets/images/works/piso-piedras-1.jpg",
+      thumbnail: "assets/images/works/piso-piedras-1.jpg",
+    },
+    {
+      original: "assets/images/works/revoque_andamio.jpg",
+      thumbnail: "assets/images/works/revoque_andamio.jpg",
+    },
+  ];
+  
 
   return (
     <section className={`bg-background py-8`} id="pricing">
@@ -23,100 +90,7 @@ const Pricing = () => {
         <div
           className={`flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4`}
         >
-          <div
-            className={`flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-background mt-4`}
-          >
-            <div
-              className={`flex-1 bg-background text-gray-600 rounded-t rounded-b-none overflow-hidden shadow`}
-            >
-              <div className={`p-8 text-3xl font-bold text-center border-b-4`}>
-                {firstPlan?.name}
-              </div>
-              <ul className={`w-full text-center text-sm`}>
-                {firstPlan?.features.map((feature) => (
-                  <li
-                    className={`border-b py-4`}
-                    key={`${firstPlan.name}-${feature}`}
-                  >
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div
-              className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
-            >
-              <div
-                className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center`}
-              >
-                {firstPlan?.price}
-                <span className={`text-base`}> {firstPlan?.priceDetails}</span>
-              </div>
-            </div>
-          </div>
-          <div
-            className={`flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-background mt-4 sm:-mt-6 shadow-lg z-10`}
-          >
-            <div
-              className={`flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow`}
-            >
-              <div className={`w-full p-8 text-3xl font-bold text-center`}>
-                {secondPlan?.name}
-              </div>
-              <div
-                className={`h-1 w-full bg-primary my-0 py-0 rounded-t`}
-              ></div>
-              <ul className={`w-full text-center text-base font-bold`}>
-                {secondPlan?.features.map((feature) => (
-                  <li
-                    className={`border-b py-4`}
-                    key={`${secondPlan?.name}-${feature}`}
-                  >
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div
-              className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
-            >
-              <div className={`w-full pt-6 text-4xl font-bold text-center`}>
-                {secondPlan?.price}
-                <span className={`text-base`}> {secondPlan?.priceDetails}</span>
-              </div>
-            </div>
-          </div>
-          <div
-            className={`flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-primary mt-4`}
-          >
-            <div
-              className={`flex-1 bg-background text-gray-600 rounded-t rounded-b-none overflow-hidden shadow`}
-            >
-              <div className={`p-8 text-3xl font-bold text-center border-b-4`}>
-                {thirdPlan?.name}
-              </div>
-              <ul className={`w-full text-center text-sm`}>
-                {thirdPlan?.features.map((feature) => (
-                  <li
-                    className={`border-b py-4`}
-                    key={`${thirdPlan?.name}-${feature}`}
-                  >
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div
-              className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
-            >
-              <div
-                className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center`}
-              >
-                {thirdPlan?.price}
-                <span className={`text-base`}> {thirdPlan?.priceDetails}</span>
-              </div>
-            </div>
-          </div>
+          <ImageGallery items={images} />
         </div>
       </div>
     </section>
