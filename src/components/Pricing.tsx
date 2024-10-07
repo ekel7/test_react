@@ -15,10 +15,6 @@ const Pricing = () => {
       thumbnail: "assets/images/works/cocina_terminada.jpg",
     },
     {
-      original: "assets/images/works/copado-1.jpg",
-      thumbnail: "assets/images/works/copado-1.jpg",
-    },
-    {
       original: "assets/images/works/edificio-1.jpg",
       thumbnail: "assets/images/works/edificio-1.jpg",
     },
@@ -75,7 +71,7 @@ const Pricing = () => {
 
   return (
     <section className={`bg-background py-8`} id="pricing">
-      <div className={`container mx-auto px-2 pt-4 pb-12 text-primary`}>
+      <div className={`container mx-auto px-2 pt-4 pb-12 text-primary`} style={{maxWidth: "100vw"}}>
         <h1
           className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
         >
